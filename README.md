@@ -30,7 +30,7 @@ Using NOAA’s Climate Data Online and provided datasets, we perform exploratory
 
 - **Seattle rainfall data**: [seattle_rain.csv](https://github.com/brian-fischer/DATA-5100/blob/main/weather/seattle_rain.csv)
 - **St. Louis rainfall data**: [stl_rain.csv](https://github.com/brian-fischer/DATA-5100/blob/main/weather/stl_rain.csv)
-- **Vancouver rainfall data**: Downloaded from [vancouver_rain](https://www.ncei.noaa.gov/cdo-web/)
+- **Vancouver rainfall data**: Downloaded from [NOAA Climate Data Online](https://www.ncei.noaa.gov/cdo-web/)
 
 
 ---
@@ -45,21 +45,21 @@ Using NOAA’s Climate Data Online and provided datasets, we perform exploratory
 
 - Removed duplicates and filtered data from 2018–2022.
 
-- Handled missing precipitation values by filling them with the mean of the respective city.
+- Replaced missing precipitation values with the mean for each city.
 
 2.Merge and tidy data
 
 - Combined Seattle and Vancouver datasets by date.
 
-- Converted the dataset into tidy (long) format with columns: date, city, precipitation.
+- Converted the dataset into tidy format with columns: date, city, precipitation.
 
 3.Create derived variables
 
-- month and year for monthly and yearly aggregation.
+- is_rain: 1 if precipitation > 0, otherwise 0.
+
+- month and year: used for monthly and yearly aggregation.
 
 - monthly_total: total precipitation per month per city.
-
-- yearly_precipitation: total precipitation per year per city.
 
 4.Analysis and visualization
 
