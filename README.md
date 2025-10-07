@@ -29,7 +29,6 @@ Using NOAA’s Climate Data Online and provided datasets, we perform exploratory
 ## Data
 
 - **Seattle rainfall data**: [seattle_rain.csv](https://github.com/brian-fischer/DATA-5100/blob/main/weather/seattle_rain.csv)
-- **St. Louis rainfall data**: [stl_rain.csv](https://github.com/brian-fischer/DATA-5100/blob/main/weather/stl_rain.csv)
 - **Vancouver rainfall data**: Downloaded from [NOAA Climate Data Online](https://www.ncei.noaa.gov/cdo-web/)
 
 
