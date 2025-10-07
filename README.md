@@ -18,7 +18,8 @@ Using NOAA’s Climate Data Online and provided datasets, we perform exploratory
 │   └── vancouver_rain.csv
 ├── code/                     # Jupyter notebooks and ts
 │   └── Seattle_weather_project.ipynb
-├── reports/                  # Generated visualizations 
+├── reports/     
+|   └── Communicate_the_Results_Weather.pdf # Generated visualizations 
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
 
