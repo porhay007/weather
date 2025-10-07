@@ -1,3 +1,4 @@
+## Seattle vs Vancouver Rainfall Analysis
 ## Project Overview
 
 This project analyzes historical precipitation data to determine how rainfall in Seattle compares with Vancouver.
